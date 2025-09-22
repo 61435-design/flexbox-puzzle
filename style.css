@@ -15,7 +15,7 @@
     border-radius: 8px;
 }
 
-/* Puzzle Section */
+/* Puzzle section */
 .puzzle {
     display: flex;
     justify-content: center;
@@ -24,12 +24,12 @@
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    width: 600px; /* adjust for your puzzle */
+    width: 600px; /* adjust to fit your puzzle */
     gap: 5px;
 }
 
 .flex-container img {
-    width: 140px; /* adjust based on puzzle piece size */
+    width: 140px; /* adjust based on puzzle piece */
     height: 140px;
     border: 1px solid #ccc;
     border-radius: 4px;
