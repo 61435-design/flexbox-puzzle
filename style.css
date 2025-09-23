@@ -1,50 +1,31 @@
-/* Grid layout */
-.grid-container {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    gap: 20px;
-    padding: 20px;
-    font-family: Arial, sans-serif;
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-/* Header styling */
-.header {
-    text-align: center;
-    background-color: #f2f2f2;
-    padding: 10px;
-    border-radius: 8px;
+header {
+  background: #333;
+  color: white;
+  padding: 20px;
 }
 
-/* Puzzle section */
-.puzzle {
-    display: flex;
-    justify-content: center;
+.puzzle-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  margin: 20px;
 }
 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 600px; /* adjust to fit your puzzle */
-    gap: 5px;
+.puzzle-container img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 2px solid #ccc;
 }
 
-.flex-container img {
-    width: 140px; /* adjust based on puzzle piece */
-    height: 140px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-/* Hide faulty piece */
 .hidden {
-    display: none;
-}
-
-/* Footer styling */
-.footer {
-    text-align: center;
-    font-style: italic;
-    background-color: #f2f2f2;
-    padding: 10px;
-    border-radius: 8px;
+  display: none;
 }
